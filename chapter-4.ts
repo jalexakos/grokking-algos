@@ -48,3 +48,16 @@ function maxNum(arr: Array<number>): number{
 }
 
 maxNum([ 0, 3, 6, 9, 12, 15, 18 ]); // works
+
+// 4.4
+function binarySearchRecursive(arr: Array<number>, target: number): number {
+    const midPoint = Math.floor((arr.length - 1)/2);
+    if (arr[midPoint] === target) return midPoint;
+    else if (arr.length === 1) return -1;
+    else if (arr[midPoint] > target) return binarySearchRecursive(arr.slice(0, midPoint - 1), target);
+    else return binarySearchRecursive(arr.slice(midPoint + 1), target);
+}
+
+binarySearchRecursive([ 0, 3, 6, 9, 12, 15, 18 ], 15) // 5
+
+// this solution doesn't work because we get the wrong index, as we're slicing the array. Thus, we're getting the right index on the subarray, but not the actual array.
