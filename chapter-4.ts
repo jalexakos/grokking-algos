@@ -14,4 +14,18 @@ function sum(arr: Array<number>){
     
   sum([2,4,6])
 
-  
+// 4.2
+
+function countList(arr:Array<any>): number {
+    if (arr.length === 0){
+        return 0;
+    }
+
+    if (arr.length === 1){
+        return 1;
+    }
+
+    return 1 + countList(arr.slice(1, arr.length));
+}   
+
+countList([1,2,3,4,5]);
