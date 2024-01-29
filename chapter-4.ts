@@ -76,3 +76,7 @@ console.log(binarySearchRecursive([1, 2, 3, 4, 5, 6, 7, 8, 9], 6)); // 5
 // 4.6
 
 // It will take O(n) time to double the value of each element in an array.
+
+// 4.7
+
+// It will take O(1) time to double the value of the first element in an array.
