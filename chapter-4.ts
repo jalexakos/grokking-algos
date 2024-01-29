@@ -1,6 +1,6 @@
 // 4.1
 
-function sum(arr: Array<number>){
+function sum(arr: Array<number>): number{
     if (arr.length === 0) {
         return 0;
       }
