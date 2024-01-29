@@ -80,3 +80,7 @@ console.log(binarySearchRecursive([1, 2, 3, 4, 5, 6, 7, 8, 9], 6)); // 5
 // 4.7
 
 // It will take O(1) time to double the value of the first element in an array.
+
+// 4.8
+
+// Creating a multiplication table (where each element in the array is multiplied by the other elements in the array) will take O(n)^2 time.
