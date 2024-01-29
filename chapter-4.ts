@@ -68,3 +68,7 @@ console.log(binarySearchRecursive([1, 2, 3, 4, 5, 6, 7, 8, 9], 6)); // 5
 // had issues, which I had chatGPT debug for me. I was slicing incorrectly on my left sided slice - I was passing 
 // midpoint - 1 as the second value in slice, when I should pass midpoint, as slice is non-inclusive of the second value
 // (thus, it would not include the midpoint value in the new index).
+
+// 4.5
+
+// It will take O(n) time to print each element in an array.
