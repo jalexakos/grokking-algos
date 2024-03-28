@@ -14,8 +14,8 @@
 // Wrong: No
 // from ChatGPT:
 // Quicksort is not considered a greedy algorithm because it does not make decisions based solely on the locally 
-// optimal choice at each step with the hope of finding a globally optimal solution. Greedy algorithms typically make 
-// decisions by selecting the best immediate option without considering the potential long-term consequences.
+// optimal choice at each step with the hope of finding a globally optimal solution. Greedy algorithms typically 
+// make decisions by selecting the best immediate option without considering the potential long-term consequences.
 
 // In contrast, Quicksort employs a divide-and-conquer strategy, which involves recursively dividing the array into 
 // smaller subarrays, sorting each subarray independently, and then combining the results. At each step of the 
