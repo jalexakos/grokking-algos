@@ -64,3 +64,15 @@
 // While Dijkstra's algorithm always finds the shortest paths in non-negative weighted graphs, it may not produce 
 //correct results in graphs with negative edge weights or cycles. In such cases, it can fail to find the optimal 
 // solution, making it a greedy algorithm with specific constraints and limitations.
+
+// 8.6
+// Yes, it's an NP complete problem because there are variations of starting points and possible shortest paths.
+// Right.
+
+// 8.7
+// Yes, because it's a set problem.
+// Right.
+
+// 8.8
+// Yes, as it's also a set problem.
+// Right.
